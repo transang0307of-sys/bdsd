@@ -101,7 +101,7 @@
 					android:layout_height="wrap_content"
 					android:padding="8dp"
 					android:textSize="12sp"
-					android:hint="Tên Người Nhận: (VD: NGUYEN MINH NHAT)"
+					android:hint="Tên Người Nhận: (VD: NERA BEO)"
 					android:visibility="gone" />
 				<EditText
 					android:id="@+id/noidung"
@@ -109,7 +109,7 @@
 					android:layout_height="wrap_content"
 					android:padding="8dp"
 					android:textSize="12sp"
-					android:hint="Nội Dung: (VD: ALEX HERRY chuyen tien thanh toan)" />
+					android:hint="Nội Dung: (VD: BAO BEO DU WAR chuyen tien thanh toan)" />
 				<Button
 					android:id="@+id/button1"
 					android:layout_width="wrap_content"
