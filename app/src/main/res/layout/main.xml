@@ -1,0 +1,124 @@
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:orientation="vertical"
+	android:id="@+id/_main">
+	<LinearLayout
+		android:id="@+id/linear1"
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:padding="8dp"
+		android:gravity="center_horizontal|center_vertical"
+		android:orientation="vertical">
+		<LinearLayout
+			android:id="@+id/alexherryqa"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:padding="8dp"
+			android:gravity="center_horizontal|center_vertical"
+			android:orientation="vertical"
+			android:layout_gravity="center_horizontal|center_vertical">
+			<ImageView
+				android:id="@+id/imageview1"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:src="@drawable/ghuu"
+				android:scaleType="fitCenter" />
+		</LinearLayout>
+		<LinearLayout
+			android:id="@+id/qa"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:padding="8dp"
+			android:gravity="center_horizontal|center_vertical"
+			android:orientation="horizontal">
+			<TextView
+				android:id="@+id/textview2"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:padding="8dp"
+				android:text="Copyright ©2025 Liên Minh FlukeZ - Developer By: Nguyễn Minh Nhật."
+				android:textSize="10sp"
+				android:textStyle="bold" />
+		</LinearLayout>
+		<LinearLayout
+			android:id="@+id/hqa"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:padding="8dp"
+			android:gravity="center_horizontal|center_vertical"
+			android:orientation="vertical">
+			<LinearLayout
+				android:id="@+id/linear5"
+				android:layout_width="340dp"
+				android:layout_height="match_parent"
+				android:padding="8dp"
+				android:gravity="center_horizontal"
+				android:orientation="vertical">
+				<TextView
+					android:id="@+id/textview3"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:padding="8dp"
+					android:text="Tạo Thông Báo Biến Động Số Dư"
+					android:textSize="15sp"
+					android:textStyle="bold" />
+				<EditText
+					android:id="@+id/stk"
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:padding="8dp"
+					android:textSize="12sp"
+					android:hint="Số Tài Khoản: (VD: 25xxx781)"
+					android:inputType="numberSigned|numberDecimal" />
+				<EditText
+					android:id="@+id/sotien"
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:padding="8dp"
+					android:textSize="12sp"
+					android:hint="Số Tiền: (VD: -10,000 &amp; +10,000)" />
+				<EditText
+					android:id="@+id/sodu"
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:padding="8dp"
+					android:textSize="12sp"
+					android:hint="Số Dư Cuối: (VD: 500,000)" />
+				<EditText
+					android:id="@+id/stknguoinhan"
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:padding="8dp"
+					android:textSize="12sp"
+					android:hint="Số Tài Khoản Người Gửi: (VD: 258781)" />
+				<EditText
+					android:id="@+id/tenguoinhan"
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:padding="8dp"
+					android:textSize="12sp"
+					android:hint="Tên Người Nhận: (VD: NGUYEN MINH NHAT)"
+					android:visibility="gone" />
+				<EditText
+					android:id="@+id/noidung"
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:padding="8dp"
+					android:textSize="12sp"
+					android:hint="Nội Dung: (VD: ALEX HERRY chuyen tien thanh toan)" />
+				<Button
+					android:id="@+id/button1"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:padding="8dp"
+					android:text="Tạo Thông Báo Biến Động"
+					android:textSize="12sp"
+					android:textStyle="bold" />
+			</LinearLayout>
+		</LinearLayout>
+	</LinearLayout>
+</LinearLayout>
